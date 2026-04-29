@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Manual BlueSeer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        background: linear-gradient(135deg, #fdf2f8, #e0f2fe);
+        color: #1e293b;
+    }
+
+    .sidebar {
+        width: 240px;
+        height: 100vh;
+        background: linear-gradient(180deg, #ec4899, #8b5cf6, #06b6d4);
+        padding: 20px;
+        position: fixed;
+        color: white;
+        box-shadow: 5px 0 25px rgba(0,0,0,0.1);
+    }
+
+    .sidebar h2 {
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .sidebar a {
+        display: block;
+        padding: 10px;
+        margin: 6px 0;
+        text-decoration: none;
+        color: white;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+        background: rgba(255,255,255,0.3);
+        transform: translateX(6px);
+    }
+
+    .contenido {
+        margin-left: 260px;
+        padding: 30px;
+        width: 100%;
+    }
+
+    .titulo {
+        font-family: 'Playfair Display', serif;
+        font-size: 38px;
+        margin-bottom: 30px;
+        color: #7c3aed;
+    }
+
+    .card {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        padding: 20px;
+        margin-bottom: 25px;
+        border-radius: 20px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-6px) scale(1.01);
+    }
+
+    .texto {
+        flex: 1;
+    }
+
+    .texto h2 {
+        margin: 0;
+        font-size: 20px;
+        color: #334155;
+    }
+
+    .texto p {
+        font-size: 14px;
+        color: #475569;
+    }
+
+    img {
+        width: 360px;
+        border-radius: 14px;
+        border: 2px solid rgba(0,0,0,0.08);
+    }
+
+    .c1 { background: #ffe4e6; }
+    .c2 { background: #dcfce7; }
+    .c3 { background: #fef9c3; }
+    .c4 { background: #e0e7ff; }
+    .c5 { background: #fae8ff; }
+    .c6 { background: #cffafe; }
+    .c7 { background: #fce7f3; }
+    .c8 { background: #ecfccb; }
+    .c9 { background: #f1f5f9; }
+
+</style>
+
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>BlueSeer</h2>
+    <a href="#p1">Plataforma</a>
+    <a href="#p2">Descarga</a>
+    <a href="#p3">Ejecutable</a>
+    <a href="#p4">Directorio</a>
+    <a href="#p5">Idioma</a>
+    <a href="#p6">Parámetros</a>
+    <a href="#p7">Acceso</a>
+    <a href="#p8">Instalación</a>
+    <a href="#p9">Final</a>
+</div>
+
+<div class="contenido">
+
+<div class="titulo">Manual Técnico BlueSeer ERP</div>
+
+<div class="card c1" id="p1">
+<div class="texto">
+<h2>Plataforma Web Recursos BlueSeer</h2>
+<p>Acceso al sistema desde la plataforma oficial.</p>
+</div>
+<img src="imagenes/1.%20Plataforma%20Web%20Recursos%20BlueSeer.png">
+</div>
+
+<div class="card c2" id="p2">
+<div class="texto">
+<h2>Soporte de Descarga Web en BlueSeer</h2>
+<p>Ubicación del botón de descarga.</p>
+</div>
+<img src="imagenes/2.%20Soporte%20de%20Descarga%20Web%20en%20BlueSeer.png">
+</div>
+
+<div class="card c3" id="p3">
+<div class="texto">
+<h2>Autorizacion de Ejecutable</h2>
+<p>Permitir ejecución del instalador.</p>
+</div>
+<img src="imagenes/3.%20Autorizacion%20de%20Ejecutable%20de%20BlueSeer.png">
+</div>
+
+<div class="card c4" id="p4">
+<div class="texto">
+<h2>Definición de Directorio</h2>
+<p>Selección de carpeta de instalación.</p>
+</div>
+<img src="imagenes/4.%20Definición%20de%20Directorio%20de%20la%20Instalacion.png">
+</div>
+
+<div class="card c5" id="p5">
+<div class="texto">
+<h2>Configuración de Idioma</h2>
+<p>Selección del idioma.</p>
+</div>
+<img src="imagenes/5.%20Configuracion%20de%20la%20Localizacion%20de%20Idioma.png">
+</div>
+
+<div class="card c6" id="p6">
+<div class="texto">
+<h2>Parámetros de Despliegue</h2>
+<p>Revisión de configuraciones.</p>
+</div>
+<img src="imagenes/6.%20Revision%20de%20los%20Parametros%20de%20Despliegue.png">
+</div>
+
+<div class="card c7" id="p7">
+<div class="texto">
+<h2>Acceso de Escritorio</h2>
+<p>Creación del acceso directo.</p>
+</div>
+<img src="imagenes/7.%20Creación%20de%20Acceso%20de%20Escritorio%20de%20BlueSeer.png">
+</div>
+
+<div class="card c8" id="p8">
+<div class="texto">
+<h2>Proceso de Instalación</h2>
+<p>Instalación de archivos.</p>
+</div>
+<img src="imagenes/8.%20Progreso%20de%20la%20Instalacion%20de%20Archivos.png">
+</div>
+
+<div class="card c9" id="p9">
+<div class="texto">
+<h2>Finalización</h2>
+<p>Instalación completada.</p>
+</div>
+<img src="imagenes/9.%20Finalizacion%20de%20la%20Instalacion%20de%20BlueSeer.png">
+</div>
+
+</div>
+
+</body>
+</html>
